@@ -1,0 +1,73 @@
+.navbar {
+    display: flex;
+
+    position: sticky;
+    top: 0;
+    
+    justify-content: center;
+    
+    align-items: center;
+    background-color: black;
+
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 2px 2px rgb(37, 37, 37); 
+}
+
+.title {
+    display: flex;
+    justify-content: left;
+    float: left;
+
+    background-color: black;
+    color: white;
+
+    padding: 0px;
+    margin-right: 50%;
+}
+
+.nav {
+    display: flex;
+    justify-content: right;
+    float: right;
+    
+    background-color: black;
+    padding: 3px;
+    margin: 0px;
+}
+
+.nav a {
+    padding: 10px;
+    margin: 2px;
+    text-decoration: none;
+    
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+
+    padding: 1.5vh;
+
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+
+    padding: 5px;
+    margin: 5vh;
+}
